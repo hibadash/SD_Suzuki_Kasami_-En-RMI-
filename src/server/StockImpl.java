@@ -29,7 +29,7 @@ public class StockImpl extends UnicastRemoteObject implements IStock {
             current--;
             System.out.println("[STOCK] -1 carton retiré. Total = " + current);
         } else {
-            System.out.println("[STOCK] Vide !");
+            System.out.println("[STOCK] EST Vide !");
         }
     }
 
