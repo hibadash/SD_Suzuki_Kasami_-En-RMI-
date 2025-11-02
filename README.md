@@ -1,5 +1,6 @@
 # Livraison et Production Distribuées avec RMI et Suzuki-Kasami
-![Distributed System](Explication.png)
+![Distributed System](Explanation.jpg)
+
 
 This project implements a **distributed system** for managing delivery and production using **Java RMI**. It is based on the **Suzuki-Kasami token algorithm** to ensure **distributed mutual exclusion**.
 
@@ -36,4 +37,5 @@ java -cp bin server.StockServer
 ---
 
 This project is intended for learning and demonstrating **distributed system concepts** and **mutual exclusion algorithms**.
+
 
