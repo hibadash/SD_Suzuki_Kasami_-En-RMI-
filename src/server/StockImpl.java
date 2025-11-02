@@ -27,7 +27,7 @@ public class StockImpl extends UnicastRemoteObject implements IStock {
     public synchronized void removeCarton() throws RemoteException {
         if (current > 0) {
             current--;
-            System.out.println("[STOCK] -1 carton retiré. Total = " + current);
+            System.out.println("[STOCK] -1 carton retiré. Le total = " + current);
         } else {
             System.out.println("[STOCK] Vide !");
         }
