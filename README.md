@@ -38,4 +38,6 @@ java -cp bin server.StockServer
 
 This project is intended for learning and demonstrating **distributed system concepts** and **mutual exclusion algorithms**.
 
+Open to contributions 
+
 
